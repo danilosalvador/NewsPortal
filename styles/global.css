@@ -73,3 +73,17 @@ main {
     color: var(--text-color-primary);
     box-shadow: 3px 3px 4px #02061740;
 }
+
+.text-maxline-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical; 
+}
+
+.text-maxline-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    -webkit-box-orient: vertical; 
+}
